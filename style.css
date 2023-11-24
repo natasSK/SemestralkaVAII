@@ -1,4 +1,13 @@
-#carouselExampleAutoplaying {
+@media screen and (max-width: 768px) {
+    .textInfo {
+        height: 400px;
+    }
+}
+
+.posuvatelny-blok {
+    overflow: scroll; /* vytvorenie posúvateľného bloku */
+    padding: 10px; /* vnútorný odsadenie obsahu */
+    border: 1px solid;
 
 }
 
