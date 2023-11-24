@@ -28,13 +28,18 @@
     margin: 0 auto; /* Zarovnanie obrázkov na stred */
 }
 
+#pozadie-container {
+    background-image: url("obr/pozadie.png");
+    background-size: cover; /* Aby sa obrázok pokryl celým kontajnerom */
+    background-position: center; /* Zarovnanie obrázka do stredu */
+}
+
 .vyhladavanie {
-    width: 100%;
+
     outline: none;
     border: none;
     padding: 15px;
     padding-right: 60px;
-    border: 1px solid #f67d13;
     border-radius: 15px;
     background-color: #ecf0f1;
     align-items: center;
@@ -90,9 +95,7 @@
 .card {
     box-shadow: 0 1px 3px rgba(230, 126, 34, 0.89), 0 1px 2px #e67e22;
     transition: all 0.2s ease-in-out;
-    box-sizing: border-box;
-    margin-top:10px;
-    margin-bottom:10px;
+
     background-color:#FFF;
 }
 
