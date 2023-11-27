@@ -4,6 +4,7 @@
     }
 }
 
+
 .posuvatelny-blok {
     overflow: scroll; /* vytvorenie posúvateľného bloku */
     padding: 10px; /* vnútorný odsadenie obsahu */
@@ -85,10 +86,10 @@
     font-weight: bold;
 }
 
-.najnovsie ion-icon {
+.najnovsieText ion-icon {
     color: red;
-    font-size: 25px;
 }
+
 
 
 
@@ -103,13 +104,14 @@
     box-shadow: 0 5px 5px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
-.najnovsie a {
+.najnovsieText a {
     text-decoration: none;
 }
 
 .kategorie a {
     text-decoration: none;
     font-weight: bold;
+    font-size: large;
 }
 
 .vyhladavanieVyhl .vyhladanie {
@@ -128,3 +130,121 @@
     position: relative;
 }
 
+#K_oblecenie {
+    background-image: url("obr/oblecenie.jpg");
+    background-size: cover; /* roztiahne obrázok na celý element */
+    background-position: center; /* umiestni obrázok na stred elementu */
+}
+
+#K_auta {
+    background-image: url("obr/auta.webp");
+    background-size: cover; /* roztiahne obrázok na celý element */
+    background-position: center; /* umiestni obrázok na stred elementu */
+}
+
+#K_dom {
+    background-image: url("obr/dom.jpg");
+    background-size: cover; /* roztiahne obrázok na celý element */
+    background-position: center; /* umiestni obrázok na stred elementu */
+}
+
+#K_deti {
+    background-image: url("obr/deti.webp");
+    background-size: cover; /* roztiahne obrázok na celý element */
+    background-position: center; /* umiestni obrázok na stred elementu */
+}
+
+#K_motorka {
+    background-image: url("obr/motorka.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#K_pohovka {
+    background-image: url("obr/pohovka.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+#K_pes {
+    background-image: url("obr/pes.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#K_naradie {
+    background-image: url("obr/naradie.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#K_lopta {
+    background-image: url("obr/lopta.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#K_hudba {
+    background-image: url("obr/hudba.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#K_pc {
+    background-image: url("obr/notebook.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+#K_knihy {
+    background-image: url("obr/knihy.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#K_mobily {
+    background-image: url("obr/The-Best-Phones-to-buy-in-2023---our-top-10-list.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#K_fotak {
+    background-image: url("obr/fotak.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#K_sluzby {
+    background-image: url("obr/sluzby.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#K_ostatne {
+    background-image: url("obr/ostatne.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.tile {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    margin-bottom: 15px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+}
+
+.tile img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.tile:hover {
+    background-color: rgba(246, 125, 19, 0.18);
+    box-shadow: 0 5px 5px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    transition: all 0.2s ease-in-out;
+}
